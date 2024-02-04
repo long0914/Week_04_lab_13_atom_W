@@ -3,15 +3,15 @@ public class Atom
     public string name { get; set; }
     public string system { get; set; }
     public int proton { get; set; }
-    public int neuron { get; set; }
+    public int neutron { get; set; }
     public double weight { get; set; }
 
-    public Atom(string name, string system, int proton, int neuron, double weight)
+    public Atom(string name, string system, int proton, int neutron, double weight)
     {
         this.name = name;
         this.system = system;
         this.proton = proton;
-        this.neuron = neuron;
+        this.neutron = neutron;
         this.weight = weight;
     }
 
@@ -20,7 +20,7 @@ public class Atom
         this.name = "";
         this.system = "";
         this.proton = 0;
-        this.neuron = 0;
+        this.neutron = 0;
         this.weight = 0;
     }
 
@@ -37,8 +37,9 @@ public class Atom
     }
 
 
-public override string ToString(Atom atom){
-    return {"Atom: " + atom.name + " System: " + atom.system + " Proton: " + atom.proton + " Neutron: " + atom.neutron + " Weight: " + atom.weight};
+public override string ToString()
+{
+    return "Atom: " + name + " System: " + system + " Proton: " + proton + " Neutron: " + neutron + " Weight: " + weight;
 }
 
 public static List<Atom> GetAtoms()
