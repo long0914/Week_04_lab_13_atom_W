@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using system;
+using file.IO;
+using system.serialization.json;
+
+namespace atomSeries{
+    class Program{
+
+        static void Main(string[] args){
+            
+
+            
+    }
+}
