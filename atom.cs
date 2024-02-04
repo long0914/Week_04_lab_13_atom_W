@@ -1,27 +1,29 @@
+
+namespace atomSeries{
 public class Atom
 {
     public string name { get; set; }
-    public string system { get; set; }
     public int proton { get; set; }
     public int neutron { get; set; }
     public double weight { get; set; }
 
-    public Atom(string name, string system, int proton, int neutron, double weight)
+     public string symbol { get; set; }
+    public Atom(string name, int proton, int neutron, double weight, string symbol)
     {
         this.name = name;
-        this.system = system;
         this.proton = proton;
         this.neutron = neutron;
         this.weight = weight;
+        this.symbol = symbol;
     }
 
     public Atom()
     {
         this.name = "";
-        this.system = "";
         this.proton = 0;
         this.neutron = 0;
         this.weight = 0;
+        this.symbol = "";
     }
 
     public static Atom Parse(string line)
@@ -33,14 +35,14 @@ public class Atom
             throw new ArgumentException("Invalid input. Expected five parts.");
         }
 
-        return new Atom(parts[0], parts[1], int.Parse(parts[2]), int.Parse(parts[3]), double.Parse(parts[4]));
+        return new Atom(parts[0], int.Parse(parts[1]), int.Parse(parts[2]), double.Parse(parts[3]), parts[4]);
     }
 
-
-public override string ToString()
-{
-    return "Atom: " + name + " System: " + system + " Proton: " + proton + " Neutron: " + neutron + " Weight: " + weight;
-}
+    public override string ToString()
+    {
+        return "Atom: " + name + " Proton: " + proton + " Neutron: " + neutron + " Weight: " + weight + " Symbol: " + symbol;
+    }
+    
 
 public static List<Atom> GetAtoms()
 {
@@ -157,4 +159,6 @@ elements.Add(Atom.Parse("Roentgenium 111 161 272 Rg"));
 elements.Add(Atom.Parse("Hassium 108 169 277 Hs"));
 return elements;
 }
+}
+
 }

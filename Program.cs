@@ -10,6 +10,14 @@ namespace atomSeries
         static void Main(string[] args)
         {
             
+            List<Atom> atoms = Atom.GetAtoms();
+
+            WriteJson(atoms, "atoms.json");
+
+            ReadJson("atoms.json");
+
+            Console.ReadKey();
+
         }
 
         static void WriteJson(List<Atom> atoms, string filename)
@@ -23,9 +31,11 @@ namespace atomSeries
             var jsonString = File.ReadAllText(filename);
             var atoms = JsonSerializer.Deserialize<List<Atom>>(jsonString);
 
+
             foreach (var atom in atoms)
             {
                 Console.WriteLine(atom.ToString());
+
             }
         }
     }

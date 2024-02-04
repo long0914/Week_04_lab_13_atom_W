@@ -1,0 +1,772 @@
+[
+    {
+        "name": "Hydrogen",
+        "proton": 1,
+        "neutron": 0,
+        "weight": 1.0079,
+        "symbol": "H"
+    },
+    {
+        "name": "Helium",
+        "proton": 2,
+        "neutron": 2,
+        "weight": 4.0026,
+        "symbol": "He"
+    },
+    {
+        "name": "Lithium",
+        "proton": 3,
+        "neutron": 4,
+        "weight": 6.941,
+        "symbol": "Li"
+    },
+    {
+        "name": "Beryllium",
+        "proton": 4,
+        "neutron": 5,
+        "weight": 9.0122,
+        "symbol": "Be"
+    },
+    {
+        "name": "Boron",
+        "proton": 5,
+        "neutron": 6,
+        "weight": 10.811,
+        "symbol": "B"
+    },
+    {
+        "name": "Carbon",
+        "proton": 6,
+        "neutron": 6,
+        "weight": 12.0107,
+        "symbol": "C"
+    },
+    {
+        "name": "Nitrogen",
+        "proton": 7,
+        "neutron": 7,
+        "weight": 14.0067,
+        "symbol": "N"
+    },
+    {
+        "name": "Oxygen",
+        "proton": 8,
+        "neutron": 8,
+        "weight": 15.9994,
+        "symbol": "O"
+    },
+    {
+        "name": "Fluorine",
+        "proton": 9,
+        "neutron": 10,
+        "weight": 18.9984,
+        "symbol": "F"
+    },
+    {
+        "name": "Neon",
+        "proton": 10,
+        "neutron": 10,
+        "weight": 20.1797,
+        "symbol": "Ne"
+    },
+    {
+        "name": "Sodium",
+        "proton": 11,
+        "neutron": 12,
+        "weight": 22.9897,
+        "symbol": "Na"
+    },
+    {
+        "name": "Magnesium",
+        "proton": 12,
+        "neutron": 12,
+        "weight": 24.305,
+        "symbol": "Mg"
+    },
+    {
+        "name": "Aluminum",
+        "proton": 13,
+        "neutron": 14,
+        "weight": 26.9815,
+        "symbol": "Al"
+    },
+    {
+        "name": "Silicon",
+        "proton": 14,
+        "neutron": 14,
+        "weight": 28.0855,
+        "symbol": "Si"
+    },
+    {
+        "name": "Phosphorus",
+        "proton": 15,
+        "neutron": 16,
+        "weight": 30.9738,
+        "symbol": "P"
+    },
+    {
+        "name": "Sulfur",
+        "proton": 16,
+        "neutron": 16,
+        "weight": 32.065,
+        "symbol": "S"
+    },
+    {
+        "name": "Chlorine",
+        "proton": 17,
+        "neutron": 18,
+        "weight": 35.453,
+        "symbol": "Cl"
+    },
+    {
+        "name": "Potassium",
+        "proton": 19,
+        "neutron": 20,
+        "weight": 39.0983,
+        "symbol": "K"
+    },
+    {
+        "name": "Argon",
+        "proton": 18,
+        "neutron": 22,
+        "weight": 39.948,
+        "symbol": "Ar"
+    },
+    {
+        "name": "Calcium",
+        "proton": 20,
+        "neutron": 20,
+        "weight": 40.078,
+        "symbol": "Ca"
+    },
+    {
+        "name": "Scandium",
+        "proton": 21,
+        "neutron": 24,
+        "weight": 44.9559,
+        "symbol": "Sc"
+    },
+    {
+        "name": "Titanium",
+        "proton": 22,
+        "neutron": 26,
+        "weight": 47.867,
+        "symbol": "Ti"
+    },
+    {
+        "name": "Vanadium",
+        "proton": 23,
+        "neutron": 28,
+        "weight": 50.9415,
+        "symbol": "V"
+    },
+    {
+        "name": "Chromium",
+        "proton": 24,
+        "neutron": 28,
+        "weight": 51.9961,
+        "symbol": "Cr"
+    },
+    {
+        "name": "Manganese",
+        "proton": 25,
+        "neutron": 30,
+        "weight": 54.938,
+        "symbol": "Mn"
+    },
+    {
+        "name": "Iron",
+        "proton": 26,
+        "neutron": 30,
+        "weight": 55.845,
+        "symbol": "Fe"
+    },
+    {
+        "name": "Nickel",
+        "proton": 28,
+        "neutron": 31,
+        "weight": 58.6934,
+        "symbol": "Ni"
+    },
+    {
+        "name": "Cobalt",
+        "proton": 27,
+        "neutron": 32,
+        "weight": 58.9332,
+        "symbol": "Co"
+    },
+    {
+        "name": "Copper",
+        "proton": 29,
+        "neutron": 35,
+        "weight": 63.546,
+        "symbol": "Cu"
+    },
+    {
+        "name": "Zinc",
+        "proton": 30,
+        "neutron": 35,
+        "weight": 65.39,
+        "symbol": "Zn"
+    },
+    {
+        "name": "Gallium",
+        "proton": 31,
+        "neutron": 39,
+        "weight": 69.723,
+        "symbol": "Ga"
+    },
+    {
+        "name": "Germanium",
+        "proton": 32,
+        "neutron": 41,
+        "weight": 72.64,
+        "symbol": "Ge"
+    },
+    {
+        "name": "Arsenic",
+        "proton": 33,
+        "neutron": 42,
+        "weight": 74.9216,
+        "symbol": "As"
+    },
+    {
+        "name": "Selenium",
+        "proton": 34,
+        "neutron": 45,
+        "weight": 78.96,
+        "symbol": "Se"
+    },
+    {
+        "name": "Bromine",
+        "proton": 35,
+        "neutron": 45,
+        "weight": 79.904,
+        "symbol": "Br"
+    },
+    {
+        "name": "Krypton",
+        "proton": 36,
+        "neutron": 48,
+        "weight": 83.8,
+        "symbol": "Kr"
+    },
+    {
+        "name": "Rubidium",
+        "proton": 37,
+        "neutron": 48,
+        "weight": 85.4678,
+        "symbol": "Rb"
+    },
+    {
+        "name": "Strontium",
+        "proton": 38,
+        "neutron": 50,
+        "weight": 87.62,
+        "symbol": "Sr"
+    },
+    {
+        "name": "Yttrium",
+        "proton": 39,
+        "neutron": 50,
+        "weight": 88.9059,
+        "symbol": "Y"
+    },
+    {
+        "name": "Zirconium",
+        "proton": 40,
+        "neutron": 51,
+        "weight": 91.224,
+        "symbol": "Zr"
+    },
+    {
+        "name": "Niobium",
+        "proton": 41,
+        "neutron": 52,
+        "weight": 92.9064,
+        "symbol": "Nb"
+    },
+    {
+        "name": "Molybdenum",
+        "proton": 42,
+        "neutron": 54,
+        "weight": 95.94,
+        "symbol": "Mo"
+    },
+    {
+        "name": "Technetium",
+        "proton": 43,
+        "neutron": 55,
+        "weight": 98,
+        "symbol": "Tc"
+    },
+    {
+        "name": "Ruthenium",
+        "proton": 44,
+        "neutron": 57,
+        "weight": 101.07,
+        "symbol": "Ru"
+    },
+    {
+        "name": "Rhodium",
+        "proton": 45,
+        "neutron": 58,
+        "weight": 102.9055,
+        "symbol": "Rh"
+    },
+    {
+        "name": "Palladium",
+        "proton": 46,
+        "neutron": 60,
+        "weight": 106.42,
+        "symbol": "Pd"
+    },
+    {
+        "name": "Silver",
+        "proton": 47,
+        "neutron": 61,
+        "weight": 107.8682,
+        "symbol": "Ag"
+    },
+    {
+        "name": "Cadmium",
+        "proton": 48,
+        "neutron": 64,
+        "weight": 112.411,
+        "symbol": "Cd"
+    },
+    {
+        "name": "Indium",
+        "proton": 49,
+        "neutron": 66,
+        "weight": 114.818,
+        "symbol": "In"
+    },
+    {
+        "name": "Tin",
+        "proton": 50,
+        "neutron": 69,
+        "weight": 118.71,
+        "symbol": "Sn"
+    },
+    {
+        "name": "Antimony",
+        "proton": 51,
+        "neutron": 71,
+        "weight": 121.76,
+        "symbol": "Sb"
+    },
+    {
+        "name": "Iodine",
+        "proton": 53,
+        "neutron": 74,
+        "weight": 126.9045,
+        "symbol": "I"
+    },
+    {
+        "name": "Tellurium",
+        "proton": 52,
+        "neutron": 76,
+        "weight": 127.6,
+        "symbol": "Te"
+    },
+    {
+        "name": "Xenon",
+        "proton": 54,
+        "neutron": 77,
+        "weight": 131.293,
+        "symbol": "Xe"
+    },
+    {
+        "name": "Cesium",
+        "proton": 55,
+        "neutron": 78,
+        "weight": 132.9055,
+        "symbol": "Cs"
+    },
+    {
+        "name": "Barium",
+        "proton": 56,
+        "neutron": 81,
+        "weight": 137.327,
+        "symbol": "Ba"
+    },
+    {
+        "name": "Lanthanum",
+        "proton": 57,
+        "neutron": 82,
+        "weight": 138.9055,
+        "symbol": "La"
+    },
+    {
+        "name": "Cerium",
+        "proton": 58,
+        "neutron": 82,
+        "weight": 140.116,
+        "symbol": "Ce"
+    },
+    {
+        "name": "Praseodymium",
+        "proton": 59,
+        "neutron": 82,
+        "weight": 140.9077,
+        "symbol": "Pr"
+    },
+    {
+        "name": "Neodymium",
+        "proton": 60,
+        "neutron": 84,
+        "weight": 144.24,
+        "symbol": "Nd"
+    },
+    {
+        "name": "Promethium",
+        "proton": 61,
+        "neutron": 84,
+        "weight": 145,
+        "symbol": "Pm"
+    },
+    {
+        "name": "Samarium",
+        "proton": 62,
+        "neutron": 88,
+        "weight": 150.36,
+        "symbol": "Sm"
+    },
+    {
+        "name": "Europium",
+        "proton": 63,
+        "neutron": 89,
+        "weight": 151.964,
+        "symbol": "Eu"
+    },
+    {
+        "name": "Gadolinium",
+        "proton": 64,
+        "neutron": 93,
+        "weight": 157.25,
+        "symbol": "Gd"
+    },
+    {
+        "name": "Terbium",
+        "proton": 65,
+        "neutron": 94,
+        "weight": 158.9253,
+        "symbol": "Tb"
+    },
+    {
+        "name": "Dysprosium",
+        "proton": 66,
+        "neutron": 97,
+        "weight": 162.5,
+        "symbol": "Dy"
+    },
+    {
+        "name": "Holmium",
+        "proton": 67,
+        "neutron": 98,
+        "weight": 164.9303,
+        "symbol": "Ho"
+    },
+    {
+        "name": "Erbium",
+        "proton": 68,
+        "neutron": 99,
+        "weight": 167.259,
+        "symbol": "Er"
+    },
+    {
+        "name": "Thulium",
+        "proton": 69,
+        "neutron": 100,
+        "weight": 168.9342,
+        "symbol": "Tm"
+    },
+    {
+        "name": "Ytterbium",
+        "proton": 70,
+        "neutron": 103,
+        "weight": 173.04,
+        "symbol": "Yb"
+    },
+    {
+        "name": "Lutetium",
+        "proton": 71,
+        "neutron": 104,
+        "weight": 174.967,
+        "symbol": "Lu"
+    },
+    {
+        "name": "Hafnium",
+        "proton": 72,
+        "neutron": 106,
+        "weight": 178.49,
+        "symbol": "Hf"
+    },
+    {
+        "name": "Tantalum",
+        "proton": 73,
+        "neutron": 108,
+        "weight": 180.9479,
+        "symbol": "Ta"
+    },
+    {
+        "name": "Tungsten",
+        "proton": 74,
+        "neutron": 110,
+        "weight": 183.84,
+        "symbol": "W"
+    },
+    {
+        "name": "Rhenium",
+        "proton": 75,
+        "neutron": 111,
+        "weight": 186.207,
+        "symbol": "Re"
+    },
+    {
+        "name": "Osmium",
+        "proton": 76,
+        "neutron": 114,
+        "weight": 190.23,
+        "symbol": "Os"
+    },
+    {
+        "name": "Iridium",
+        "proton": 77,
+        "neutron": 115,
+        "weight": 192.217,
+        "symbol": "Ir"
+    },
+    {
+        "name": "Platinum",
+        "proton": 78,
+        "neutron": 117,
+        "weight": 195.078,
+        "symbol": "Pt"
+    },
+    {
+        "name": "Gold",
+        "proton": 79,
+        "neutron": 118,
+        "weight": 196.9665,
+        "symbol": "Au"
+    },
+    {
+        "name": "Mercury",
+        "proton": 80,
+        "neutron": 121,
+        "weight": 200.59,
+        "symbol": "Hg"
+    },
+    {
+        "name": "Thallium",
+        "proton": 81,
+        "neutron": 123,
+        "weight": 204.3833,
+        "symbol": "Tl"
+    },
+    {
+        "name": "Lead",
+        "proton": 82,
+        "neutron": 125,
+        "weight": 207.2,
+        "symbol": "Pb"
+    },
+    {
+        "name": "Bismuth",
+        "proton": 83,
+        "neutron": 126,
+        "weight": 208.9804,
+        "symbol": "Bi"
+    },
+    {
+        "name": "Polonium",
+        "proton": 84,
+        "neutron": 125,
+        "weight": 209,
+        "symbol": "Po"
+    },
+    {
+        "name": "Astatine",
+        "proton": 85,
+        "neutron": 125,
+        "weight": 210,
+        "symbol": "At"
+    },
+    {
+        "name": "Radon",
+        "proton": 86,
+        "neutron": 136,
+        "weight": 222,
+        "symbol": "Rn"
+    },
+    {
+        "name": "Francium",
+        "proton": 87,
+        "neutron": 136,
+        "weight": 223,
+        "symbol": "Fr"
+    },
+    {
+        "name": "Radium",
+        "proton": 88,
+        "neutron": 138,
+        "weight": 226,
+        "symbol": "Ra"
+    },
+    {
+        "name": "Actinium",
+        "proton": 89,
+        "neutron": 138,
+        "weight": 227,
+        "symbol": "Ac"
+    },
+    {
+        "name": "Protactinium",
+        "proton": 91,
+        "neutron": 140,
+        "weight": 231.0359,
+        "symbol": "Pa"
+    },
+    {
+        "name": "Thorium",
+        "proton": 90,
+        "neutron": 142,
+        "weight": 232.0381,
+        "symbol": "Th"
+    },
+    {
+        "name": "Neptunium",
+        "proton": 93,
+        "neutron": 144,
+        "weight": 237,
+        "symbol": "Np"
+    },
+    {
+        "name": "Uranium",
+        "proton": 92,
+        "neutron": 146,
+        "weight": 238.0289,
+        "symbol": "U"
+    },
+    {
+        "name": "Americium",
+        "proton": 95,
+        "neutron": 148,
+        "weight": 243,
+        "symbol": "Am"
+    },
+    {
+        "name": "Plutonium",
+        "proton": 94,
+        "neutron": 150,
+        "weight": 244,
+        "symbol": "Pu"
+    },
+    {
+        "name": "Curium",
+        "proton": 96,
+        "neutron": 151,
+        "weight": 247,
+        "symbol": "Cm"
+    },
+    {
+        "name": "Berkelium",
+        "proton": 97,
+        "neutron": 150,
+        "weight": 247,
+        "symbol": "Bk"
+    },
+    {
+        "name": "Californium",
+        "proton": 98,
+        "neutron": 153,
+        "weight": 251,
+        "symbol": "Cf"
+    },
+    {
+        "name": "Einsteinium",
+        "proton": 99,
+        "neutron": 153,
+        "weight": 252,
+        "symbol": "Es"
+    },
+    {
+        "name": "Fermium",
+        "proton": 100,
+        "neutron": 157,
+        "weight": 257,
+        "symbol": "Fm"
+    },
+    {
+        "name": "Mendelevium",
+        "proton": 101,
+        "neutron": 157,
+        "weight": 258,
+        "symbol": "Md"
+    },
+    {
+        "name": "Nobelium",
+        "proton": 102,
+        "neutron": 157,
+        "weight": 259,
+        "symbol": "No"
+    },
+    {
+        "name": "Rutherfordium",
+        "proton": 104,
+        "neutron": 157,
+        "weight": 261,
+        "symbol": "Rf"
+    },
+    {
+        "name": "Lawrencium",
+        "proton": 103,
+        "neutron": 159,
+        "weight": 262,
+        "symbol": "Lr"
+    },
+    {
+        "name": "Dubnium",
+        "proton": 105,
+        "neutron": 157,
+        "weight": 262,
+        "symbol": "Db"
+    },
+    {
+        "name": "Bohrium",
+        "proton": 107,
+        "neutron": 157,
+        "weight": 264,
+        "symbol": "Bh"
+    },
+    {
+        "name": "Seaborgium",
+        "proton": 106,
+        "neutron": 160,
+        "weight": 266,
+        "symbol": "Sg"
+    },
+    {
+        "name": "Meitnerium",
+        "proton": 109,
+        "neutron": 159,
+        "weight": 268,
+        "symbol": "Mt"
+    },
+    {
+        "name": "Roentgenium",
+        "proton": 111,
+        "neutron": 161,
+        "weight": 272,
+        "symbol": "Rg"
+    },
+    {
+        "name": "Hassium",
+        "proton": 108,
+        "neutron": 169,
+        "weight": 277,
+        "symbol": "Hs"
+    }
+]
